@@ -8,6 +8,9 @@ export default function CustomInput({ info, value, handleChange, error }) {
       </Typography>
       <Input
         sx={{
+          "&&": {
+            marginTop: "0",
+          },
           borderRadius: ".5rem",
           border: "0.0625rem solid",
           borderColor: error ? "hsl(7, 88%, 67%)" : "hsl(245, 15%, 58%)",

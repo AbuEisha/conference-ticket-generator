@@ -94,7 +94,7 @@ export default function FormDesign({
     <>
       <Typography
         variant="h1"
-        fontSize={{ xs: "1.75rem", md: "3.5rem" }}
+        fontSize={{ xs: "1.75rem", md: "3.25rem" }}
         fontWeight={700}
       >
         Your Journey to Coding Conf 2025 Starts Here!
@@ -102,9 +102,9 @@ export default function FormDesign({
       <Typography
         variant="body1"
         color="hsl(252, 6%, 83%)"
-        fontSize={{ xs: "1.25rem", sm: "1.35rem" }}
+        fontSize={{ xs: "1.25rem", sm: "1.3rem" }}
         fontWeight={500}
-        marginBlock={{ xs: "1.75rem 2.5rem", md: "2rem 3rem" }}
+        marginBlock={{ xs: "1.2rem 1.7rem", md: "1.25rem 3.5rem" }}
       >
         Secure your spot at next year&apos;s biggest coding conference.
       </Typography>

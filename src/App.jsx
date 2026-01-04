@@ -44,7 +44,7 @@ export default function App() {
       component="main"
       sx={{
         minHeight: "100vh",
-        paddingBlock: { xs: "2rem 2.34rem", md: "2.5rem 3.8rem" },
+        paddingBlock: { xs: "2rem 7.1875rem", md: "2.5rem 8.375rem" },
         position: "relative",
         backgroundImage: {
           xs: `url(${mobileBg})`,
@@ -88,7 +88,7 @@ export default function App() {
         <Box
           sx={{
             position: "absolute",
-            top: { xs: "0.5rem", md: "7%" },
+            top: { xs: "0.5rem", md: "6%" },
             right: "0rem",
             "& svg": {
               width: { xs: "10rem", md: "auto" },
@@ -101,8 +101,8 @@ export default function App() {
         <Box
           sx={{
             position: "absolute",
-            top: { xs: "59.5%", md: "53%" },
-            right: { xs: "-4.125rem", md: "20.25%" },
+            top: { xs: "54.25%", md: "49%" },
+            right: { xs: "-4.25rem", md: "20.25%" },
             "& svg": {
               width: { xs: "8.375rem", md: "auto" },
               height: { xs: "8.375rem", md: "auto" },
@@ -125,11 +125,11 @@ export default function App() {
           }}
         ></Box>
       </Box>
-      <Container maxWidth="md" sx={{ textAlign: "center" }}>
+      <Container sx={{ textAlign: "center", maxWidth: { md: "53.125rem" } }}>
         <Box
           component="img"
           src={Logo}
-          marginBlockEnd={{ xs: "2.75rem", md: "4.25rem" }}
+          marginBlockEnd={{ xs: "2.25rem", md: "3.58rem" }}
           alt="Conference Ticket Generator Logo"
         />
         {showTicket ? (
