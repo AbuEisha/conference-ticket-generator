@@ -95,7 +95,7 @@ export default function FormDesign({
       <Typography
         variant="h1"
         fontSize={{ xs: "1.75rem", md: "3.25rem" }}
-        fontWeight={700}
+        fontWeight={800}
       >
         Your Journey to Coding Conf 2025 Starts Here!
       </Typography>
